@@ -19,11 +19,12 @@ The Virtual Machine was setup with all of its inbound rules in Azure open, while
 
 ## About the Logs
 ![Alt text](image-3.png)
-By gathering the attackers IP from the Windows Event Viewer - Event 4625 (Failed Logon), I was able to use a Powershell script to look up an API that retrieves the geolocation of the IP, and log it into a custom log file, that was later fed into the Azure Log Analytics Workspace
+
+> By gathering the attackers IP from the Windows Event Viewer - Event 4625 (Failed Logon), I was able to use a Powershell script to look up an API that retrieves the geolocation of the IP, and log it into a custom log file, that was later fed into the Azure Log Analytics Workspace
 
 ![Alt text](image-2.png)
 
-![Alt text](image-1.png)
+![Alt text](image.png)
 
 ## Data Retrieved
 
@@ -35,7 +36,7 @@ By gathering the attackers IP from the Windows Event Viewer - Event 4625 (Failed
 
 ## Final Result
 
-![Alt text](image.png)
+![Alt text](image-1.png)
 
 > Taiwan really wanted to get into the VM lol
 
