@@ -1,5 +1,5 @@
 # Azure Cloud SIEM - RDP Bruteforce Honeypot
-![Lab Flow](lab-images\lab-flow.jpg)
+![Alt text](lab-flow.jpg)
 
 ## Introduction
 This project is a simple Honeypot made in Microsoft Azure with the objective of learning about the cloud SIEM platform as I used custom logs and a world-map view of the data to analyse live RDP Bruteforce attacks to a vulnerable VM.
